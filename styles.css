@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+html{
+    font-size: 8px;
+    height: 100%;
+    width: 100%;
+    background-color: #FF6037;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("./assets/bg.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#para{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 2rem;
+}
+#para span{
+    color: #77ff00;
+}
+.screenWon{
+    height: 75%;
+    width: 75%;
+    background-color: rgb(0, 204, 153, 0.75);
+    border: solid #87FF2A 2rem;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+.screenWon h2{
+    font-size: 5rem;
+    color: #77ff00;
+}
+.screenWon button{
+    position: absolute;
+    bottom: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    background-color: #30d10c;
+    padding: 1rem 3.5rem;
+    border-radius: 4px;
+    border: none;
+    border-style: none;
+    transition: transform 0.15s ease-in;
+    cursor: pointer;
+}
+.screenWon button:active{
+    transform: scale(0.8);
+}
+.screenloss{
+    height: 75%;
+    width: 75%;
+    background-color: rgb(255, 0, 0, 0.75);
+    border: solid #a50000 2rem;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+.screenloss h2{
+    font-size: 5rem;
+    color: #2b0000;
+}
+.screenloss button{
+    position: absolute;
+    bottom: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    background-color: #30d10c;
+    padding: 1rem 3.5rem;
+    border-radius: 4px;
+    border: none;
+    border-style: none;
+    transition: transform 0.15s ease-in;
+    cursor: pointer;
+}
+.screenloss button:active{
+    transform: scale(0.8);
+}
+.screentop, .screenlast{
+    height: 75%;
+    width: 75%;
+    background-color: rgb(9, 0, 0);
+    border: solid #ffffff 2rem;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+.screentop input{
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+}
+.start{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    background-color: #30d10c;
+    padding: 1rem 3.5rem;
+    border-radius: 4px;
+    border: none;
+    border-style: none;
+    transition: transform 0.15s ease-in;
+    cursor: pointer;
+}
+.start:active{
+    transform: scale(0.8);
+}
+#htwo{
+    font-size: 5rem;
+    color: white;
+    font-weight: 700;
+}
+#param{
+    margin: 5rem;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+}
+.screenlast button{
+    position: absolute;
+    bottom: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    background-color: #30d10c;
+    padding: 1rem 3.5rem;
+    border-radius: 4px;
+    border: none;
+    border-style: none;
+    transition: transform 0.15s ease-in;
+    cursor: pointer;
+}
+.screenlast button:active{
+    transform: scale(0.8);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+}
+.question{
+    width:70% ;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 1.5rem 2.5rem;
+    border-radius: 2rem;
+}
+.answer{
+    width: 70%;
+}
+.list-item{
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    gap: 5rem;
+}
+.list-item li{
+    width: 40%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 3rem 2rem;
+    border-radius: 1.5rem;
+}
+.set1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.set2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.15s ease-in;
+}
+li:active{
+    transform: scale(0.8);
+}
